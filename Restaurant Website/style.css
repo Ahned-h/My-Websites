@@ -1,0 +1,226 @@
+:root {
+    --font-site: "Dancing Script";
+    --background-color: #222831;
+    --white-color: white;
+    --primary-color: #FFBE33;
+    --primary-color-darker: #E69C00;
+}
+
+/* Navbar Styles */
+.navbar-brand {
+    font-family: var(--font-site);
+    font-size: 2rem !important;
+    font-weight: 700;
+}
+
+.nav-link:hover,
+.nav-link i:hover {
+    color: var(--primary-color) !important;
+}
+
+/* Carousel/Hero Section */
+#carouselExampleCaptions {
+    height: 100vh;  
+    background-image: url("WhatsApp Image 2025-07-29 at 14.23.37_a9ff75e3.jpg");
+    background-size: cover;
+    color: white;
+}
+
+.carousel-item {
+    height: 60vh;   
+}
+
+.carousel-caption {
+    top: 8rem;
+    text-align: left !important;
+    width: 30rem;
+}
+
+.carousel-caption h1 {
+    font-family: var(--font-site);
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+.carousel-indicators {
+    margin-bottom: 5rem !important;
+}
+
+.indicator:not(:focus) {
+    height: 0.7rem !important;
+    width: 0.7em !important;
+}
+
+.indicator:focus {
+    background-color: var(--primary-color) !important;
+    width: 1rem !important;
+    height: 1rem !important;
+}
+
+#carouselExampleCaptions .btn,
+.menu-section .btn {
+    background-color: var(--primary-color);
+}
+
+#carouselExampleCaptions .btn:hover,
+.menu-section .btn:hover {
+    background-color: var(--primary-color-darker);
+}
+
+/* Menu Section */
+.menu-section {
+    width: 80% !important;
+}
+
+.menu-header {
+    font-family: var(--font-site);
+    font-weight: 700;
+}
+
+.offer-cards h1,
+.offer-cards h4 {
+    font-family: var(--font-site);
+}
+
+.menu-grid .card {
+    height: 25rem;
+    width: 28% !important;
+    border: 0;
+    background-color: var(--background-color);
+    padding: 0;
+    border-radius: 30px;
+}
+
+.menu-grid img {
+    height: 9rem;
+    width: 10rem;
+    border-radius: 2rem 2rem 0 2rem !important;
+}
+
+.menu-section img {
+    transition: transform 0.3s;
+}
+
+.menu-section img:hover {
+    transform: scale(1.2);
+}
+
+.grid-img {
+    height: 50%;
+    width: 100%;
+    background-color: #F1F2F3;
+    border-radius: 20px 20px 0 30px;
+}
+
+.card-body {
+    background-color: var(--background-color);
+    color: var(--white-color) !important;
+    border-radius: 0 0 20px 20px;
+}
+
+.menu-grid .card-body {
+    height: 45%;
+}
+
+.menu-grid .btn {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+}
+
+.food-category button {
+    width: 4.3rem;
+}
+
+.food-category button:active {
+    background-color: var(--background-color) !important;
+    color: var(--white-color) !important;
+}
+
+/* About Section */
+.feane-about h1 {
+    font-family: var(--font-site);
+    font-weight: 700;
+}
+
+.feane-about .text-side {
+    width: 37%;
+}
+
+.feane-about .img-side img {
+    width: 100%;
+    height: 85vh;
+}
+
+.feane-about .btn {
+    background-color: var(--primary-color);
+}
+
+.feane-about .btn:hover {
+    background-color: var(--primary-color-darker);
+}
+
+/* Booking Section */
+.booking-section {
+    height: 90vh;
+}
+
+.booking-section h1 {
+    font-family: var(--font-site);
+    font-weight: 700;
+}
+
+.booking-section .inputs input,
+.booking-section .inputs select {
+    height: 15%;
+    width: 100%;
+}
+
+.booking-section .inputs,
+.booking-section .iframe {
+    width: 49%;
+}
+
+.booking-section .btn {
+    background-color: var(--primary-color);
+}
+
+.booking-section .btn:hover {
+    background-color: var(--primary-color-darker);
+}
+
+/* Customers Feedback */
+.customers-feedback h1 {
+    font-family: var(--font-site);
+    font-weight: 700;
+}
+
+.customers-feedback .btn {
+    background-color: var(--primary-color);
+    width: 45px;
+    height: 45px;
+    color: var(--white-color);
+}
+
+.customers-feedback .btn:hover {
+    background-color: var(--primary-color-darker);
+}
+
+/* Footer */
+footer h2 {
+    font-family: var(--font-site);
+    font-weight: 700;
+}
+
+footer a:hover {
+    color: var(--primary-color) !important;
+}
+
+footer .Feane span {
+    width: 35px;
+    height: 35px;
+}
+
+footer .Feane span:hover {
+    background-color: var(--primary-color) !important;
+}

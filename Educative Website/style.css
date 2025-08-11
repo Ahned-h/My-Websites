@@ -1,0 +1,917 @@
+/* CSS RESET */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+select, input {
+  padding-left: 20px;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+}
+
+/* First Nav Bar */
+.navb_1 {
+  background-color: #120F2D;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.navb_1 ul {
+  list-style-type: none;
+  gap: 20px;
+  display: flex;
+}
+
+.navb_1 ul a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Back To Top Button */
+.bttb {
+  width: 50px;
+  height: 50px;
+  color: white; 
+  background-color: rgb(40, 120, 235);
+  position: fixed; 
+  right: 30px;
+  bottom: 30px;
+  border: none;
+}
+
+.bttb:hover {
+  background-color: rgb(20, 101, 217);
+}
+
+/* Second Nav Bar */
+.navb_2 {
+  align-items: center;
+  background-color: white;
+  color: rgb(40, 120, 235);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 60px;
+  padding-right: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navb_2 i {
+  font-size: 40px;
+}
+
+.navb_2 h1 {
+  display: inline;
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.navb_2 ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  font-family: "Jost", sans-serif;
+  font-size: 17px;
+}
+
+.navb_2 ul a {
+  color: black;
+  text-decoration: none;
+}
+
+.navb_2 ul li select {
+  border: none;
+  width: 80px;
+  font-family: "Jost", sans-serif;
+  font-size: 17px;
+  padding-left: 5px;
+}
+.navb_2 ul li select:focus{
+  outline: none;
+}
+.section_1 ul li input:focus{
+  outline:  3px solid  #C9DDFA;
+}
+
+.navb_2 ul a:hover {
+  color: rgb(40, 120, 235);
+}
+
+.navb_2 ul {
+  color: rgb(40, 120, 235);
+}
+
+.navb_2 button {
+  color: white;
+  background-color: rgb(40, 120, 235);
+  margin: 0px;
+  width: 100px;
+  height: 50px;
+ font-family: "Jost", sans-serif;
+  font-size: 17px;
+  position: relative;
+  right: 0px;
+  border: none;
+} 
+
+.navb_2 button:hover {
+  background-color: rgb(20, 101, 217);
+  font-family: "Jost", sans-serif;
+}
+
+/* First Section */
+.section_1 {
+  color: white;
+  height: 100vh;
+  background-image: linear-gradient(rgba(40, 120, 236,0.9)), url(header.jpg);
+  background-size: cover;
+  text-align: center;
+  padding-top: 10%;
+  font-family: "Jost", sans-serif;
+}
+
+.section_1 h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.section_1 h2 {
+  font-weight: 700;
+  font-size: 2.5em;
+}
+
+.section_1 ul {
+  display: flex;
+  justify-content: center;
+}
+
+.section_1 ul li input {
+  width: 300px;
+  height: 70px;
+}
+.section_1 ul li input:focus{
+  outline:  3px solid  #C9DDFA;
+}
+.section_1 ul li select {
+  width: 120px;
+  height: 70px;
+  border: 0px;
+}
+.section_1 ul li select:focus{
+  outline:  3px solid  #C9DDFA;
+}
+.section_1 button {
+  border: 0px;
+  color: white;
+  background-color: #F14D5D;
+  width: 130px;
+  height: 70px;
+  font-size: 17px;
+}
+
+.section_1 button:hover {
+  background-color: #EE2A3D;
+}
+
+/* Second Section */
+.section_2 {
+  margin:auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Jost", sans-serif;
+  height: 100vh;
+  width: 1180px;
+}
+
+.section_2 .img {
+  height: 500px;
+  width: 40%;
+  margin-right: 50px;
+}
+
+.section_2_texts {
+  width: 656px;
+  height: 500px;
+}
+
+.section_2_texts h1 {
+  font-weight: 700;
+  font-size: 50PX;
+  color: #120F2D;
+  width: 90%;
+  height: 25%;
+}
+.section_2_texts h2{
+  font-weight: 700;
+}
+.section_2_texts span{
+  font-weight: 400;
+  font-size: 16px;
+}
+.section_2_texts h3 {
+  color: #F14D5D;
+  font-weight:500;
+  font-family: sans-serif;
+}
+
+.section_2_texts P {
+  color: #A2A2A9;
+  height: 25%;
+}
+
+.section_2 .blocks {
+  display: flex;
+  text-align: center;
+  color: white;
+  height: 25%;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.section_2 .block1 {
+  background-color: #28A745;
+  width: 25%;
+  padding-top: 2%;
+}
+
+.section_2 .block2 {
+  width: 25%;
+  background-color: #2878EB;
+  padding-top: 20px;
+}
+
+.section_2 .block3 {
+  background-color: #F14D5D;
+  width: 25%;
+  padding-top: 20px;
+}
+
+.section_2 .block4 {
+  background-color: #FFC107;
+  width: 25%;
+  padding-top: 20px;
+}
+
+/* Third Section */
+
+.section_3 {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+  font-family: "Jost", sans-serif;
+  background-color: #f8f8f8;
+}
+
+.left_half {
+  width: 50%;
+  padding-right: 30px;
+}
+
+.section_3 .blocks {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  transform: translate(0,-80px);
+}
+
+.section_3 .block1,
+.section_3 .block2,
+.section_3 .block3 {
+  display: flex;
+  gap: 15px;
+}
+
+.section_3 img {
+  width: 100%;
+  max-width: 450PX;
+}
+
+.section_3 .block1_color,
+.section_3 .block2_color,
+.section_3 .block3_color {
+  width: 77px;
+  height: 77px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.block1_color { 
+  background-color: #2878EB; 
+}
+
+.block2_color {
+  background-color: #F14D5D;
+}
+
+.block3_color { 
+  background-color: #FFC107;
+}
+
+.block_text h2 {
+  margin-bottom: 5px;
+}
+
+.block_text p {
+  color: #555;
+  font-size: 14px;
+}
+
+.section_3 p {
+  width: 500px;
+  height: 40%;
+}
+
+/* FOURTH SECTION */
+.section_4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "Jost", sans-serif;
+  margin-top: 100px;
+}
+
+.section_4 .cards {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+}
+
+.section_4 .card_1, 
+.section_4 .card_2, 
+.section_4 .card_3, 
+.section_4 .card_4 {
+  width: 25%;
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+}
+
+.section_4 .card_1:hover,
+.section_4 .card_2:hover, 
+.section_4 .card_3:hover, 
+.section_4 .card_4:hover{
+   transform: translate(0,-100px);
+   transition: transform 1s ; 
+}
+
+.section_4 .card_1 { 
+  background-image: linear-gradient(rgba(18,15,45,0.4)) , url("courses-1.jpg"); 
+  position: relative;
+}
+
+.section_4 .card_2 { 
+  background-image:linear-gradient(rgba(18,15,45,0.4)) , url("courses-2.jpg");
+  position: relative; 
+}
+
+.section_4 .card_3 { 
+  background-image:linear-gradient(rgba(18,15,45,0.4)) , url("courses-3.jpg");
+  position: relative;
+}
+
+.section_4 .card_4 { 
+  background-image:linear-gradient(rgba(18,15,45,0.4)) , url("courses-4.jpg");
+  position: relative;
+}
+
+.section_4 .cards h2 {
+  font-size: 27px
+}
+
+.last {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  position: absolute;
+  bottom: 0px;
+}
+
+.section_4 .headers h3 {
+  color: #F14D5D;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.section_4 .headers h1 {
+  font-weight: 700;
+  font-size: 70px;
+  color: #120F2D;
+  width: 70%;
+  display: inline-block;
+
+}
+
+/* FIFTH SECTION */
+.section_5 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Jost", sans-serif;
+}
+
+.section_5 h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #120F2D;
+}
+
+.section_5 .submit button,
+.section_5 .submit select,
+.section_5 .inputs input {
+  width: 320px;
+  height: 70px;
+  border: 0px;
+  background-color: #ECF4FF;
+}
+
+.section_5 .submit select:focus,
+.section_5 .inputs input:focus {
+  outline:  4px solid  #C9DDFA;
+}
+
+.section_5 .submit button:hover {
+  background-color: #1465D9;
+}
+
+.section_5 .submit button {
+  background-color: #2878EB;
+  color: white;
+  font-size: 20px;
+}
+
+/* SIXTH SECTION */
+.section_6 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "Jost", sans-serif;
+}
+
+.section_6 .card_1,
+.section_6 .card_2,
+.section_6 .card_3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #ECF4FF;
+  height: auto;
+  border-radius: 15px;
+  width: 25%;
+}
+
+.section_6 .cards {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section_6 .links ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.section_6 .links ul a {
+  color: #2878EB; 
+  text-decoration: none;
+}
+
+.section_6 .links ul a:hover {
+  color: #1465D9;
+}
+
+.section_6 .button_toright {
+  transform: translate(530px,-220px);
+  width: 60px;
+  height: 60px;
+  background-color:#2878EB;
+  color: white;
+  border: 0;
+}
+
+.section_6 .button_toleft{
+  transform: translate(-530px,220px);
+  width: 60px;
+  height: 60px;
+  background-color:#2878EB;
+  color: white;
+  border: 0;
+}
+
+.section_6 .button_toleft:hover
+,.section_6 .button_toright:hover{
+  background-color:#F14D5D;
+  transition: background-color 700ms;
+}
+
+.section_6 h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #120F2D;
+  margin-bottom: 50px;
+}
+
+.section_6 .headers h3 {
+  font-size: 20px;
+  font-family:sans-serif;
+  color: #F14D5D
+}
+
+/* SEVENTH SECTION */
+.section_7 {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  height: 100vh;
+  font-family: "Jost", sans-serif;
+  transform: translate(0,100px) ;
+}
+
+.section_7 .left_half {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  height: 45%;
+}
+
+.section_7 .right_half {
+  background-color: #ECF4FF ;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  padding:0 0 50px 50px;
+}
+
+.section_7 .description {
+  display: flex;
+  margin-top: 20px;
+}
+
+.section_7 .description_headers {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  height: 30%;
+}
+
+.section_7 .text_box i {
+  color: #2878EB;
+}
+
+.section_7 .headers h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #120F2D;
+  height: 10%;
+}
+
+.section_7 .headers h3 {
+  font-size: 18px;
+  color: #F14D5D;
+  font-family: sans-serif;
+}
+
+.section_7 .par {
+  color: #9696A0;
+  font-size: 18px;
+  width: 95%;
+}
+.section_7 .switch_buttons{
+  display: flex;
+  justify-content: end;
+  height: 15%;
+}
+
+.section_7 .button_toleft{
+  width: 50px;
+  height: 50px;
+  background-color:#F14D5D;
+  color: white;
+  border: 0;
+}
+.section_7 .button_toleft:hover{
+  background-color:#2878EB;
+  transition: background-color 700ms;
+}
+.section_7 .button_toright{
+  width: 50px;
+  height: 50px;
+  background-color:#2878EB;
+  color: white;
+  border: 0;
+}
+.section_7 .button_toright:hover{
+  background-color:#F14D5D;
+  transition: background-color 700ms;
+}
+
+
+/* FORM */
+
+.form_section {
+  display: flex;
+  justify-content: center;
+  font-family: "Jost", sans-serif;
+  height: 100vh;
+  margin-left: 70px;
+}
+
+.contact_blocks {
+  width: 30%;
+  height: 450px;
+  background-color: #ECF4FF;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  margin-right: 20px;
+  padding-left:30px ;
+}
+
+
+
+.contact_blocks .block1,
+.contact_blocks .block2,
+.contact_blocks .block3 {
+  display: flex;
+  gap: 15px;
+}
+
+
+
+.contact_blocks .block1_color,
+.contact_blocks .block2_color,
+.contact_blocks .block3_color {
+  width: 77px;
+  height: 77px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.block1_color { 
+  background-color: #2878EB; 
+}
+
+.block2_color {
+  background-color: #F14D5D;
+}
+
+.block3_color { 
+  background-color: #FFC107;
+}
+.form_section h3 {
+  font-size: 18px;
+  color: #F14D5D;
+  font-family: sans-serif;
+}
+.form_section h1 {
+  font-weight: 700;
+  font-size: 4em;
+  color: #120F2D;
+}
+
+.form_elements{
+  width:50%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:20px;
+}
+.form_elements .name, 
+.form_elements .email{
+  height: 40px;
+  width: 40%;
+  border: 0;
+  border-bottom: 1px solid #CED4DA ;
+}
+.form_elements .name:focus, 
+.form_elements .email:focus{
+  outline:  3px solid  #C9DDFA;
+}
+.form_elements .subject{
+ height: 40px;
+  width: 80%;
+  border: 0;
+  border-bottom: 1px solid #CED4DA ;
+}
+
+.form_elements .subject:focus{
+  outline:  3px solid  #C9DDFA;
+}
+
+
+.form_elements .message{
+  height: 80px;
+  width: 80%;
+  border: 0;
+  border-bottom: 1px solid #CED4DA ;
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.form_elements .message:focus{
+  outline:  3px solid  #C9DDFA;
+}
+
+.form_elements button{
+  height: 60px;
+  width: 30%;
+  border: 0;
+  background-color: #2878EB;
+  color: white;
+}
+.form_elements button:hover{
+  background-color: #1465D9;
+  transition: background-color 1s;
+}
+
+/* COPYRIGHT */
+.section_8 {
+  height: 100vh;
+  width: 100%;
+  background-color: #120F2D;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #898796;
+  font-family: "Jost", sans-serif;
+}
+
+
+.section_8 .second_row {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+ .section_8 .third_row {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 1px solid #2A2742;
+  padding: 20px 200px;
+  margin-bottom: 20px;
+}
+
+.section_8 .first_row {
+   height: 10%;
+   width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.section_8 .edukate,
+.section_8 .sign_up {
+  width: 40%;
+}
+
+.section_8 .edukate h1 {
+  display: inline;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.section_8 .sign_up h2 {
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.section_8 .sign_up ul {
+  display: flex;
+  justify-content: start;
+}
+
+.section_8 button {
+  border: 0px;
+  color: white;
+  background-color: #2878EB;
+  width: 130px;
+  height: 70px;
+  font-size: 17px;
+}
+
+.section_8 button:hover {
+  background-color: #1465D9;
+}
+
+.section_1 button {
+  border: 0px;
+  color: white;
+  background-color: #F14D5D;
+  width: 130px;
+  height: 70px;
+  font-size: 17px;
+}
+
+.section_8 input {
+  height: 70px;
+  width: 400px;
+}
+.section_8 input:focus{
+  outline:  3px solid  #C9DDFA;
+}
+.section_8 p {
+  color: #898796;
+  font-size: 20px;
+  width: 100%;
+}
+
+.section_8 h1, .section_8 h2 , .section_8 section{
+  color: white;
+}
+
+.section_8 .links {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.section_8 ul a {
+  color: white;
+  font-size: 30px;
+}
+
+.section_8 .third_row {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.section_8 .edukate i {
+  color: white;
+}
+
+.section_8 .phone,
+.section_8 .address,
+.section_8 .email {
+  display: inline;
+}
+
+.section_8 .courses ul li,
+.section_8 .quick_links ul li {
+  display: inline;
+}
+
+.section_8 .link_white{
+  color: white;
+  text-decoration: none;
+}
+.section_8 .link_white:hover{
+  text-decoration: underline;
+}
+.section_8 .link_blue{
+  color: #2878EB;
+  text-decoration: none;
+}
+.section_8 .link_blue:hover{
+  text-decoration: underline;
+}

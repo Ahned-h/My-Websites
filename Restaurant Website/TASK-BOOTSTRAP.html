@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap task</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Hero Section -->
+    <div id="carouselExampleCaptions" class="carousel slide container-fluid" data-bs-ride="carousel">
+        <!-- Navbar  Start-->
+        <nav class="navbar navbar-expand-lg bg-transparent d-none d-lg-block">
+            <div class="container px-5 pt-3">
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarSupportedContent">
+                    <div>
+                        <a class="navbar-brand text-light mx-5 px-4" href="#">Feane</a>
+                    </div>
+                    <div>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-md-flex gap-4 d-sm-none">
+                            <li class="nav-item">
+                                <a class="nav-link active text-warning" aria-current="page" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" aria-current="page" href="#">MENU</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" aria-current="page" href="#">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" aria-current="page" href="#">BOOKTABLE</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href=""><i class="fa-solid fa-user text-light"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href=""><i class="fa-solid fa-cart-shopping text-light"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href=""><i class="fa-solid fa-magnifying-glass text-light"></i></a></li>
+                        <button class="btn text-light rounded-pill mx-3 px-4">Order Online</button>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+         
+        <!-- Carousel -->
+        <div class="carousel-indicators d-flex justify-content-start">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active rounded-circle indicator" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" class="rounded-circle indicator" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class="rounded-circle indicator"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="carousel-caption">
+                    <h1>Fast Food Restaurant</h1>
+                    <p>Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.</p>
+                    <button class="btn text-light rounded-pill px-5 py-2">Order Now</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-caption">
+                    <h1>Fast Food Restaurant</h1>
+                    <p>Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.</p>
+                    <button class="btn text-light rounded-pill px-5 py-2">Order Now</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-caption">
+                    <h1>Fast Food Restaurant</h1>
+                    <p>Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.</p>
+                    <button class="btn text-light rounded-pill px-5 py-2">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Menu Section -->
+    <div class="menu-section container mt-5">
+        <div class="offer-cards d-flex gap-4 justify-content-center pt-5">
+            <div class="card offer-card mb-3 bg-dark text-light p-3" style="max-width: 570px;">
+                <div class="row g-0">
+                    <div class="col-md-4 rounded-circle border border-5 border-warning overflow-hidden">
+                        <img src="o1.jpg" class="img-fluid" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body bg-dark">
+                            <h4 class="card-title">Tasty Thursdays</h4>
+                            <h1 class="card-text">20% <sub>off</sub></h1>
+                            <button class="btn text-light rounded-pill px-5 py-2">Order Now &nbsp; <i class="fa-solid fa-cart-shopping text-light"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card offer-card mb-3 bg-dark text-light p-3" style="max-width: 570px;">
+                <div class="row g-0">
+                    <div class="col-md-4 rounded-circle border border-5 border-warning overflow-hidden">
+                        <img src="o2.jpg" class="img-fluid" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body bg-dark">
+                            <h4 class="card-title">Pizza Days</h4>
+                            <h1 class="card-text">15% <sub>off</h1>
+                            <button class="btn text-light rounded-pill px-5 py-2">Order Now &nbsp; <i class="fa-solid fa-cart-shopping text-light"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="text-center menu-header m-5">Our Menu</h1>
+        <div class="food-category d-flex gap-2 justify-content-center text-center m-5">
+            <button class="rounded-pill p-2 text-light bg-dark border-0">All</button>
+            <button class="rounded-pill p-1 text-dark bg-transparent border-0">Burger</button>
+            <button class="rounded-pill p-1 text-dark bg-transparent border-0">Pizza</button>
+            <button class="rounded-pill p-1 text-dark bg-transparent border-0">Pasta</button>
+            <button class="rounded-pill p-1 text-dark bg-transparent border-0">Fries</button>
+        </div>
+
+        <!-- Menu Grid -->
+        <div class="container menu-grid px-5">
+            <div class="row gap-3 mb-4 justify-content-between">
+                <div class="card col-4">
+                    <div class="grid-img d-flex align-items-center">
+                        <img src="f1.png" class="card-img-top m-auto" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Delicious Pizza</h5>
+                        <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                        <div class="d-flex justify-content-between">
+                            <span>$20</span>
+                            <button class="btn rounded-circle"><i class="fa-solid fa-cart-shopping text-light"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card col-4">
+                    <div class="grid-img d-flex align-items-center">
+                        <img src="f2.png" class="card-img-top m-auto" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Delicious Burger</h5>
+                        <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                        <div class="d-flex justify-content-between">
+                            <span>$20</span>
+                            <button class="btn rounded-circle"><i class="fa-solid fa-cart-shopping text-light"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card col-4">
+                    <div class="grid-img d-flex align-items-center">
+                        <img src="f3.png" class="card-img-top m-auto" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Delicious Pizza</h5>
+                        <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                        <div class="d-flex justify-content-between">
+                            <span>$20</span>
+                            <button class="btn rounded-circle"><i class="fa-solid fa-cart-shopping text-light"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mb-4 gap-3 justify-content-between">
+                <div class="card col-4">
+                    <div class="grid-img d-flex align-items-center">
+                        <img src="f4.png" class="card-img-top m-auto" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Delicious Pasta</h5>
+                        <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                        <div class="d-flex justify-content-between">
+                            <span>$20</span>
+                            <button class="btn rounded-circle"><i class="fa-solid fa-cart-shopping text-light"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card col-4">
+                    <div class="grid-img d-flex align-items-center">
+                        <img src="f5.png" class="card-img-top m-auto" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Frensh Fries</h5>
+                        <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque.</p>
+                        <div class="d-flex justify-content-between">
+                            <span>$20</span>
+                            <button class="btn rounded-circle"><i class="fa-solid fa-cart-shopping text-light"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card col-4">
+                    <div class="grid-img d-flex align-items-center">
+                        <img src="f6.png" class="card-img-top m-auto" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Delicious Pizza</h5>
+                        <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                        <div class="d-flex justify-content-between">
+                            <span>$20</span>
+                            <button class="btn rounded-circle"><i class="fa-solid fa-cart-shopping text-light"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mb-4 gap-3 justify-content-between">
+                <div class="card col-4">
+                    <div class="grid-img d-flex align-items-center">
+                        <img src="f7.png" class="card-img-top m-auto" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Tasty Burger</h5>
+                        <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                        <div class="d-flex justify-content-between">
+                            <span>$20</span>
+                            <button class="btn rounded-circle"><i class="fa-solid fa-cart-shopping text-light"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card col-4">
+                    <div class="grid-img d-flex align-items-center">
+                        <img src="f8.png" class="card-img-top m-auto" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Tasty Burger</h5>
+                        <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                        <div class="d-flex justify-content-between">
+                            <span>$20</span>
+                            <button class="btn rounded-circle"><i class="fa-solid fa-cart-shopping text-light"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card col-4">
+                    <div class="grid-img d-flex align-items-center">
+                        <img src="f9.png" class="card-img-top m-auto" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Delicious Pasta</h5>
+                        <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                        <div class="d-flex justify-content-between">
+                            <span>$20</span>
+                            <button class="btn rounded-circle"><i class="fa-solid fa-cart-shopping text-light"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center align-items-center m-5">
+            <button class="btn rounded-pill px-5 text-light">View More</button>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="feane-about vh-100 container-fluid d-flex justify-content-center align-items-center gap-5 bg-dark">
+        <div class="img-side">
+            <img src="about-img.png" height="" alt="max-width:540px">
+        </div>
+        <div class="text-side text-light">
+            <h1>We Are Feane</h1>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All</p>
+            <button class="btn rounded-pill px-5 text-light">Read more</button>
+        </div>
+    </div>
+
+    <!-- Booking Section -->
+    <div class="booking-section container mt-5">
+        <h1>Book A Table</h1>
+        <div class="d-flex justify-content-between h-50">
+            <div class="inputs d-flex flex-column justify-content-between">
+                <input type="text" class="p-2" placeholder="Your Name">
+                <input type="tel" class="p-2" placeholder="Phone Number">
+                <input type="email" class="p-2" placeholder="Email">
+                <select name="" id="" class="p-2">
+                    <option value="" selected disabled>How Many Persons?</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                </select>
+                <input type="date" class="p-2">
+            </div>
+            <div class="ifrane h-25 d-none d-md-block">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28394.724245178073!2d31.163818410340642!3d27.177032045363752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14450be607cb7bcd%3A0xba699162bfc01112!2sAsyut%2C%20Al%20Hamraa%20Ath%20Thaneyah%2C%20El%20Fateh%2C%20Assiut%20Governorate!5e0!3m2!1sen!2seg!4v1754180203698!5m2!1sen!2seg" width="600" height="315" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <button class="btn rounded-pill px-5 text-light mt-5">BOOK NOW</button>
+    </div>
+
+    <!-- Customers Feedback -->
+    <div class="customers-feedback container">
+        <h1 class="text-center">What Says Our Customers</h1>
+        
+        <div class="customers-feedback-cards">
+            <div class="row">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                    <div class="card w-100 border border-0 mt-5">
+                        <div class="card-body p-4 rounded-3">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit recusandae placeat eligendi enim est officiis perspiciatis! Nisi dolorum, dolorem, nemo vitae quibusdam</p>
+                            <h5 class="card-title">Mike Hamell</h5>
+                            <span>magna aliqua</span>
+                        </div>
+                        <div class="img-customer">
+                            <img class="rounded-circle border border-5 border-warning" src="client2.jpeg" width="120px" height="120px" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card w-100 border border-0 mt-5">
+                        <div class="card-body p-4 rounded-3">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit recusandae placeat eligendi enim est officiis perspiciatis! Nisi dolorum, dolorem, nemo vitae quibusdam</p>
+                            <h5 class="card-title">Moana Michel</h5>
+                            <span>magna aliqua</span>
+                        </div>
+                        <div class="img-customer">
+                            <img class="rounded-circle border border-5 border-warning" src="client1.jpeg" width="120px" height="120px" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lr-buttons text-light d-flex justify-content-center align-items-center gap-2 m-5">
+            <button class="btn rounded-circle"><i class="fa-solid fa-angle-left"></i></button>
+            <button class="btn rounded-circle"><i class="fa-solid fa-angle-right"></i></button>
+        </div>  
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-dark text-center p-5">
+        <div class="d-flex justify-content-center gap-5">
+            <div class="contact-us d-flex flex-column gap-2 w-25">
+                <h2 class="text-light">Contact Us</h2>
+                <a class="address text-decoration-none text-light"><i class="fa-solid fa-location-dot"></i> Location</a>
+                <a class="phone text-decoration-none text-light"><i class="fa-solid fa-phone"></i> Call +01 234567890</a>
+                <a class="email text-decoration-none text-light"><i class="fa-solid fa-envelope"></i> demo@gmail.com</a>
+            </div>
+            
+            <div class="Feane d-flex flex-column text-light w-25">
+                <h2>Feane</h2>
+                <p>Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with</p>
+                <div class="links d-flex justify-content-center gap-2">
+                    <span class="rounded-circle bg-light p-1"><i class="fa-brands fa-facebook-f text-dark"></i></span>        
+                    <span class="rounded-circle bg-light p-1"><i class="fa-brands fa-twitter text-dark"></i></span>
+                    <span class="rounded-circle bg-light p-1"><i class="fa-brands fa-linkedin-in text-dark"></i></span>
+                    <span class="rounded-circle bg-light p-1"><i class="fa-brands fa-instagram text-dark"></i></span>
+                    <span class="rounded-circle bg-light p-1"><i class="fa-brands fa-pinterest text-dark"></i></span>
+                </div>
+            </div>
+            
+            <div class="opening-hours d-flex flex-column gap-3 w-25 text-light">
+                <h2>Opening Hours</h2>
+                <span>Everyday</span>
+                <span>10.00 Am -10.00 Pm</span>
+            </div>
+        </div>
+        <div class="copyright d-flex flex-column text-center text-light m-5 gap-3">
+            <span>© 2025 All Rights Reserved By Free Html Templates</span>
+            <span>© Distributed By ThemeWagon</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
